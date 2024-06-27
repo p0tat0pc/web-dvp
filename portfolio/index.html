@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi, I'm Asher Parani , a Full Stack Web Developer</p>
+    </section>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p> I’m a full stack developer. With 5 years of experience in web development, I have a strong command over both front-end and back-end technologies, allowing me to build complete and scalable applications.
+            On the front-end side, I specialize in HTML, CSS, and JavaScript frameworks such as React and Angular. I’m passionate about creating intuitive user interfaces that provide an exceptional user experience. I pay great attention to detail, ensuring that the websites or applications I develop are responsive, visually appealing, and accessible across different devices and browsers.
+            Moving to the back end, I’m proficient in server-side languages like Python, Java, or Node.js. I have extensive experience working with databases such as MySQL, PostgreSQL, and MongoDB, and I can design efficient database structures and write optimized queries. I’m familiar with RESTful APIs and know how to integrate them into applications to enable seamless communication between the front end and back end.
+            Additionally, I have expertise in version control systems like Git, and I’m comfortable working in collaborative environments using Agile methodologies. I enjoy staying up to date with the latest trends and technologies in the web development world, as it allows me to continually improve my skills and deliver cutting-edge solutions.
+            Throughout my career, I’ve had the opportunity to work on various projects, ranging from small startups to large-scale enterprise applications. I thrive in dynamic environments where I can tackle challenges, collaborate with cross-functional teams, and deliver high-quality solutions that meet both user requirements and business objectives.
+            I’m excited to be part of a team where I can contribute my full stack development skills and help create innovative and impactful applications. Thank you for considering me, and I look forward to discussing how I can contribute to your organisation.</p>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Weather App</h3>
+            <p>The Weather App is a responsive web application that allows users to check the current weather conditions for any city around the world. Users can enter the name of a city, and the app will display the current temperature, humidity, wind speed, and a brief description of the weather (e.g., cloudy, sunny). The app fetches real-time weather data from the OpenWeatherMap API and updates the UI accordingly.</p>
+        </div>
+        <div class="project">
+            <h3>ToDo List App</h3> 
+            <p>The ToDo List App is a simple yet effective task management application that allows users to keep track of their daily tasks. Users can add, edit, and delete tasks as needed. Each task can be marked as complete or incomplete, providing a visual indication of progress. The app stores the tasks in the browser's local storage, ensuring that the data persists even after the browser is closed.</p>
+        </div>
+        
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Asher Parani. All rights reserved.</p>
+    </footer>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
